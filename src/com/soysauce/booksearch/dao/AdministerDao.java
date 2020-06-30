@@ -9,8 +9,8 @@ import com.soysauce.booksearch.dbutil.BookSearchDBUtil;
 
 public class AdministerDao {
 	
-	//¹ÜÀíÔ±µÇÂ¼
-	public int login(String id,String password){
+	//ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½Â¼
+	public int login(String id,String password) {
 		PreparedStatement statement = null;
 		ResultSet res = null;
 		try{
@@ -28,7 +28,7 @@ public class AdministerDao {
 		}
 		catch(Exception e){
 			System.out.println(e.getMessage());
-			JOptionPane.showMessageDialog(null,"Êý¾Ý¿âÁ¬½ÓÊ§°Ü!!!","´íÎó",
+			JOptionPane.showMessageDialog(null,"ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½!!!","ï¿½ï¿½ï¿½ï¿½",
 					JOptionPane.ERROR_MESSAGE);
 			return -1;
 		}
